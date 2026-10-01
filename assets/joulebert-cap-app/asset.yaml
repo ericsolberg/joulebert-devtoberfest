@@ -1,0 +1,23 @@
+apiVersion: asset.sap/v1
+kind: Asset
+type: application
+
+metadata:
+  name: joulebert-cap-app
+  version: "1.0.0"
+  description: "Joule*Bert arcade game — CAP static host serving the React game SPA"
+
+sourceRoot: "."
+
+container:
+  buildPath: "."
+  port: 4004
+
+provides:
+  endpoints:
+    - path: /
+      port: 4004
+      protocol: http
+
+env:
+  NODE_ENV: production

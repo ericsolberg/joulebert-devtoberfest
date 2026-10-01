@@ -1,0 +1,10 @@
+apiVersion: solution.sap/v1
+kind: Solution
+
+metadata:
+  name: joulebert-2486d
+  version: "1.0.0"
+  description: "Joule*Bert — Q*bert-style arcade game easter egg for the SAP Joule Studio team"
+
+assets:
+  - ref: ./assets/joulebert-cap-app/asset.yaml

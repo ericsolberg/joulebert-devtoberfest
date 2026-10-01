@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@sap/cds": "^10.1.1",
+    "express": "^5.2.1"
+  }
+}
