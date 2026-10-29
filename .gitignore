@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build output
+assets/joulebert-cap-app/app/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Editor
+.DS_Store
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# CAP
+gen/
+.cds-services.json
